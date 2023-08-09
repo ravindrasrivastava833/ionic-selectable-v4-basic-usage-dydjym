@@ -1,0 +1,22 @@
+{
+  "name": "ionic-selectable-basic",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@angular/common": "6.1.1",
+    "@angular/compiler": "6.1.1",
+    "@angular/compiler-cli": "6.1.1",
+    "@angular/core": "6.1.1",
+    "@angular/forms": "6.1.1",
+    "@angular/http": "6.1.1",
+    "@angular/platform-browser": "6.1.1",
+    "@angular/platform-browser-dynamic": "6.1.1",
+    "core-js": "2.5.7",
+    "ionic-angular": "3.9.2",
+    "ionic-selectable": "3.4.0",
+    "rxjs": "6.2.2",
+    "rxjs-compat": "6.2.2",
+    "typescript": "3.0.1",
+    "zone.js": "0.8.26"
+  }
+}

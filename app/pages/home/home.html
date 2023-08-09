@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Basic usage</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-item>
+    <ion-label>Port</ion-label>
+    <ionic-selectable
+      item-content
+      [(ngModel)]="selectDeps"
+      [itemValueField]="'code'"
+      [itemTextField]="'name'"
+      [items]="depslist"
+      [canSearch]="true"
+      [isMultiple]="true"
+      (onChange)="portChange($event)"
+      [disabledItems]="disabledDischargingPorts"
+      (onSelect)="onSelect($event)"
+    >
+    </ionic-selectable>
+  </ion-item>
+</ion-content>
